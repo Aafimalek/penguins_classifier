@@ -1,9 +1,9 @@
 # Palmer Penguins species classifier
-### The deployed web app live at https://penguins-classifier.streamlit.app/
-#### This web app predicts the species of penguins as a function of their input parameters (bill length, bill width, flipper length, body mass, sex and island).
+### The deployed web app live at https://celeb-img-clf.streamlit.app/
+#### The application allows users to upload images of celebrities, and it predicts who the celebrity is using a trained deep learning model based on the ResNet architecture.
 The web app was built in Python using the following libraries:<br>
 - streamlit
 - pandas
 - numpy
-- scikit-learn
-- pickle
+- torchvision
+- pillow
